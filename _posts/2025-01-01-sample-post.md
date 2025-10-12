@@ -7,7 +7,7 @@ This is a sample post demonstrating the key features of this Jekyll site.
 
 ## Inline Math
 
-The Pythagorean theorem states that \(a^2 + b^2 = c^2\) for any right triangle with sides \(a\), \(b\), and hypotenuse \(c\).
+The Pythagorean theorem states that $a^2 + b^2 = c^2$ for any right triangle with sides $a$, $b$, and hypotenuse $c$.
 
 <!--more-->
 
@@ -15,7 +15,7 @@ The Pythagorean theorem states that \(a^2 + b^2 = c^2\) for any right triangle w
 
 We can also write display equations. For example, the fundamental theorem of calculus:
 
-\[ \int_0^1 x^2\,dx = \frac{1}{3} \]
+$$\int_0^1 x^2\,dx = \frac{1}{3}$$
 
 ## Code Highlighting
 
