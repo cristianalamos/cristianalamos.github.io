@@ -25,8 +25,8 @@
   --serif: "TeX Gyre Pagella", "Palatino Linotype", Palatino, "URW Palladio L", "Book Antiqua", serif;
   --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   --text: #222;
-  --link: #2563eb;
-  --link-hover: #1d4ed8;
+  --link: #222;
+  --link-hover: #000;
   --border: #e5e7eb;
 }
 
@@ -65,14 +65,6 @@ nav a {
   font-weight: 600;
 }
 
-footer {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  border-top: 1px solid var(--border);
-  font-size: 14px;
-  color: #666;
-}
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;

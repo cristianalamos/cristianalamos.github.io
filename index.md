@@ -3,15 +3,9 @@ layout: default
 title: Home
 ---
 
-# Welcome
+# About
 
-This is a minimal Jekyll site with MathJax support, clean typography, and a focus on readability.
+This is a minimal, academic-style Jekyll site built for GitHub Pages. It features clean typography using TeX Gyre Pagella with Palatino fallbacks, MathJax support for mathematical notation, and syntax highlighting for code.
 
-## Recent Posts
-
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%b %-d, %Y" }}
-{% endfor %}
-
-[View all posts →]({{ '/posts/' | relative_url }})
+The design prioritizes readability with a narrow column width, generous line spacing, and understated styling.
 
