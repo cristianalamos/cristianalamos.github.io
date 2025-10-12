@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/posts/' | relative_url }}">Posts</a>
+    <a href="{{ '/about/' | relative_url }}">About</a>
+  </nav>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. <a href="{{ '/feed.xml' | relative_url }}">RSS</a></p>
+  </footer>
+</body>
+</html>
+

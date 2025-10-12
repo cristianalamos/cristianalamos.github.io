@@ -1,0 +1,13 @@
+title: Your Site
+description: Minimal Jekyll site
+url: https://cristianalamos.github.io
+baseurl: ""
+markdown: kramdown
+highlighter: rouge
+timezone: America/Los_Angeles
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+permalink: /posts/:title/
+excerpt_separator: <!--more-->
+
