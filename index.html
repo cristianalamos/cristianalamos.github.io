@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>Cristian Alamos | Stanford SIEPR</title>
+    <meta
+      name="description"
+      content="Cristian Alamos, Predoctoral Research Fellow at the Stanford Institute for Economic Policy Research (SIEPR)."
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=Work+Sans:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Apply a saved theme before first paint to avoid a flash.
+      (function () {
+        try {
+          const theme = localStorage.getItem("theme");
+          if (theme === "light" || theme === "dark") {
+            document.documentElement.dataset.theme = theme;
+          }
+        } catch (error) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <!-- Intro -->
+      <section class="intro section reveal" id="about">
+        <div class="container intro-grid">
+          <img class="portrait" src="assets/portrait.jpg" alt="Cristian Alamos" />
+          <div>
+            <h1>Cristian Alamos</h1>
+            <p class="lead">
+              I am a Predoctoral Research Fellow for <a href="https://www.lukasalthoff.com/">Lukas Althoff</a> at the
+              <a href="https://siepr.stanford.edu/">Stanford Institute for Economic Policy Research (SIEPR)</a>.
+              I graduated from UC Berkeley with degrees in Economics and Computer Science.
+            </p>
+            <p class="lead compact-lead">
+              My research is in the economics of innovation and labor economics. I am particularly interested in
+              how technology, institutions, and the allocation of talent shape the rate and direction of scientific progress.
+            </p>
+            <div class="profile-links" aria-label="Profile links">
+              <a href="mailto:alamos@stanford.edu" aria-label="Email" title="Email">
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M4 6h16v12H4z"></path>
+                  <path d="m4 7 8 6 8-6"></path>
+                </svg>
+              </a>
+              <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode" title="Switch to dark mode">
+                <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 24 24">
+                  <path d="M20 15.3A8 8 0 0 1 8.7 4 8.2 8.2 0 1 0 20 15.3z"></path>
+                </svg>
+                <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <path d="M12 2v2"></path>
+                  <path d="M12 20v2"></path>
+                  <path d="m4.9 4.9 1.4 1.4"></path>
+                  <path d="m17.7 17.7 1.4 1.4"></path>
+                  <path d="M2 12h2"></path>
+                  <path d="M20 12h2"></path>
+                  <path d="m4.9 19.1 1.4-1.4"></path>
+                  <path d="m17.7 6.3 1.4-1.4"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Working papers -->
+      <section class="section reveal" id="working-papers">
+        <div class="container">
+          <h2>Working Papers</h2>
+          <div class="paper-list">
+            <article class="paper-entry">
+              <div class="paper-main">
+                <h3>Networks and the Direction of Innovation</h3>
+                <p>with <a href="https://www.lukasalthoff.com/">Lukas Althoff</a></p>
+                <div class="paper-links">
+                  <button type="button" class="link-button" data-toggle-details>Abstract</button>
+                </div>
+                <!-- TODO: add <div class="paper-links"><a href="files/...pdf">PDF</a></div> once there is a draft -->
+              </div>
+              <details class="paper-details">
+                <summary><span class="sr-only">Abstract for Networks and the Direction of Innovation</span></summary>
+                <div class="details-body">
+                  <p>
+                    The internet began as an effort to connect researchers, first in the US and later globally. This
+                    paper studies how the internet transformed scientific discovery. We construct a global dataset on when
+                    universities and firms first connected to the internet, starting in 1969, and link it to over 10
+                    million publications and patents with detailed information on authors, content, citations, and
+                    references. We find that the internet changed what scientists work on, without changing who they work
+                    with. After their university connects, scientists turn to increasingly applied questions. At the same
+                    time, firms increasingly rely on those new scientific discoveries in their patenting (but not older
+                    discoveries). Firms&rsquo; own research becomes more theoretical and thus more similar to university
+                    research. Collaboration is largely unaffected. We develop a simple model of scientific information
+                    networks that highlights the strength of weak ties: by sharing open questions and solutions, lower
+                    communication costs can change the direction of science. Text from 300,000 posts in early online
+                    scientific forums sheds additional light on the open exchange of questions and solutions across
+                    researchers at universities and firms.
+                  </p>
+                </div>
+              </details>
+            </article>
+
+            <article class="paper-entry">
+              <div class="paper-main">
+                <h3>Who Gets to Propose Novel Scientific Ideas?</h3>
+                <div class="paper-links">
+                  <button type="button" class="link-button" data-toggle-details>Abstract</button>
+                </div>
+                <!-- TODO: add PDF link -->
+              </div>
+              <details class="paper-details">
+                <summary><span class="sr-only">Abstract for Who Gets to Propose Novel Scientific Ideas?</span></summary>
+                <div class="details-body">
+                  <p>
+                    Novel ideas drive scientific progress, yet their value is particularly difficult to judge in
+                    advance. The scientific community may therefore rely on authors&rsquo; reputation to judge novel ideas,
+                    potentially undervaluing those proposed by less established researchers. This paper studies whether
+                    novel ideas are underrated by peer review, relative to their eventual impact. I use 123,000 referee
+                    reports on all submissions to a top artificial intelligence conference, from which I extract referees&rsquo;
+                    assessments of novelty. I measure impact by how often each paper is cited and how often its code is
+                    copied on GitHub. I find that novel papers receive <em>higher</em> overall referee ratings, holding constant
+                    eventual impact. However, this &ldquo;novelty boost&rdquo; is 40% smaller for papers written by
+                    authors outside top-20 institutions, and entirely absent for papers written by junior authors. I
+                    develop a Bayesian model of (editorial) decision-making under uncertainty, isolating referees&rsquo;
+                    preferences for novelty from risk aversion. Referees report no greater uncertainty about junior
+                    authors&rsquo; work, suggesting that seniority bias may explain why their novel ideas are
+                    undervalued relative to those of senior authors.
+                  </p>
+                </div>
+              </details>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Data -->
+      <section class="section reveal" id="data">
+        <div class="container">
+          <h2>Data</h2>
+          <div class="paper-list">
+            <article class="paper-entry">
+              <div class="paper-main">
+                <h3>SciNet: The Anatomy of Science</h3>
+                <p>with <a href="https://www.lukasalthoff.com/">Lukas Althoff</a></p>
+                <div class="paper-links">
+                  <button type="button" class="link-button" data-toggle-details>Abstract</button>
+                  <a href="https://www.anatomyofscience.com/">Website</a>
+                  <a href="https://github.com/lukasalthoff/scinet">Data</a>
+                  <span class="links-label">Coverage:</span>
+                  <a href="https://openai.com/index/chatgpt-for-academic-researchers/">OpenAI</a>
+                  <a href="https://impact.stanford.edu/article/accelerating-possible">Stanford Impact Labs</a>
+                </div>
+              </div>
+              <details class="paper-details">
+                <summary><span class="sr-only">Details for SciNet: The Anatomy of Science</span></summary>
+                <div class="details-body">
+                  <p>
+                    A task-level database of scientific research: a comprehensive map of what researchers actually do,
+                    broken down by domain, field, subfield, and topic. SciNet enables rigorous, task-level analysis of
+                    scientific work by mapping the granular activity structure of science across 6 domains, 34 fields,
+                    318 subfields, and 4,481 topics, with 7,262 released tasks.
+                  </p>
+                </div>
+              </details>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work in progress -->
+      <section class="section reveal" id="work-in-progress">
+        <div class="container">
+          <h2>Work in Progress</h2>
+          <div class="paper-list">
+            <article class="paper-entry paper-entry-plain">
+              <div class="paper-main">
+                <h3>Artificial Intelligence and the Evaluation of Scientific Research</h3>
+              </div>
+            </article>
+            <article class="paper-entry paper-entry-plain">
+              <div class="paper-main">
+                <h3>The Human Capital Mobility of Immigrants in the Age of Mass Migration</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>
