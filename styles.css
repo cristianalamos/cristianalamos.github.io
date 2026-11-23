@@ -90,14 +90,14 @@ p {
   padding: 1.6rem 0;
 }
 
-/* Tighter gaps between the paper sections (Working Papers, Data, Work in Progress) */
-#data,
-#work-in-progress {
+/* Tighter gaps between the paper sections (Working Papers, Work in Progress, Data) */
+#work-in-progress,
+#data {
   padding-top: 0.2rem;
 }
 
 #working-papers,
-#data {
+#work-in-progress {
   padding-bottom: 0.8rem;
 }
 
