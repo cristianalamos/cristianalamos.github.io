@@ -93,12 +93,12 @@ p {
 /* Tighter gaps between the paper sections (Working Papers, Work in Progress, Data) */
 #work-in-progress,
 #data {
-  padding-top: 0.2rem;
+  padding-top: 0.9rem;
 }
 
 #working-papers,
 #work-in-progress {
-  padding-bottom: 0.8rem;
+  padding-bottom: 1.3rem;
 }
 
 /* Intro: portrait on the left, bio on the right */
@@ -195,6 +195,14 @@ p {
   stroke-linejoin: round;
   stroke-width: 1.8;
   width: 1.32rem;
+}
+
+/* Brand logos drawn as filled shapes (e.g. X) */
+.profile-links svg.icon-fill {
+  fill: currentColor;
+  height: 1.1rem;
+  stroke: none;
+  width: 1.1rem;
 }
 
 .theme-icon-sun,
